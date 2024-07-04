@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background-image: url(digitalsignature1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.main {
+    position: absolute;
+    margin-top: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.canvas {
+    border: 10px solid black;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 4px;
+    justify-content: center;
+    border-style: 5px;
+}
+
+.top,
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+.block,
+input,
+select,
+button {
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgb(230, 238, 234);
+}
+
+.block>input {
+    background-color: #393f4d;
+    border: 5px solid rgb(69, 7, 225);
+    border-color: rgb(14, 14, 14);
+
+}
+
+.block>select {
+    background-color: #393f4d;
+    border: 5px solid rgb(69, 7, 225);
+    border-color: rgb(15, 15, 16);
+}
+
+.main {
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+}
+.custom-select>option{
+    padding: 5px;
+    align-items: center;
+
+}
+.custom-select:hover {
+    color: white;
+
+}
+
+.block:hover {
+    color: white;
+}
+
+.bottom>button {
+    margin: 10px;
+
+}
+
+.top>.block {
+    margin: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.block>p {
+    margin: 10px auto;
+    width: 50%;
+    align-items: center;
+    color: aqua;
+    padding: 5px;
+}
+p:hover{
+    color: white;
+
+}
